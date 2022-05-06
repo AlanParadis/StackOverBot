@@ -8,6 +8,7 @@ A discord bot to search Stack Overflow questions
 
 *Click the ⏭ to show the next question !*
 
+Bot token is stored in separated `.env` file
 
 ##
 Comunication with the discord API with : [Pycord](https://github.com/Pycord-Development/pycord)
