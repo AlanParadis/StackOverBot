@@ -17,7 +17,7 @@ Written in Python 3.9
 
 Build image using : 
 ```
-$    docker build stackoverbot .
+$    docker build -t stackoverbot .
 ```
 Run container using : 
 ```
