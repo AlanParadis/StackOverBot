@@ -13,7 +13,7 @@ Written in Python 3.9
 
 **Bot token can be stored in separated `.env` file in a `env` folder at the root of the repository**
 
-# Docker ⚙
+# Docker 🐋
 
 Build image using : 
 ```
