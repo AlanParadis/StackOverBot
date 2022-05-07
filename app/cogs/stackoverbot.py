@@ -16,7 +16,6 @@ class StackOverBot(discord.Cog):
     async def on_ready(self):
         print("Bot ready!")
 
-    #@discord.commands.slash_command(name = "search", description = "Perfom a search on stackoverflow")
     @commands.slash_command(name = "search", description = "Perfom a search on stackoverflow")
     async def search(self, ctx : ApplicationContext,
     search : Option(str, description= "What you would like to search for", required=True),
