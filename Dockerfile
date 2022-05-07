@@ -11,4 +11,4 @@ RUN pip install -U git+https://github.com/Pycord-Development/pycord python-doten
 COPY /app .
 
 #run the application
-ENTRYPOINT ["python", "StackOverBot.py"]
+ENTRYPOINT ["python", "main.py"]
